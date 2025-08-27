@@ -1,5 +1,7 @@
 # Food Delivery Customer Pain Points Analysis
 
+![Dashboard Screenshot](images/dashboard_screenshot.png)
+
 ## Project Overview
 Food delivery apps like **Swiggy, Zomato, and Uber Eats** face intense competition. Customer retention depends heavily on user experience. By analyzing real customer reviews, we can identify the biggest pain points (e.g., late delivery, packaging, cost, wrong orders) and provide actionable insights.
 
@@ -35,6 +37,8 @@ By analyzing customer reviews, we aim to:
 Using real-world customer reviews, we derived the following insights:  
 
 ### 1. Sentiment Distribution
+![Sentiment Bar Chart](images/sentiment_chart.png)
+
 - **Positive Reviews:** 3872  
 - **Negative Reviews:** 1540  
 - **Neutral Reviews:** 849  
@@ -43,6 +47,8 @@ Using real-world customer reviews, we derived the following insights:
 ---
 
 ### 2. Top Reported Issues
+![Top Issues Pie Chart](images/top_issues_pie.png)
+
 Most frequent pain points from negative reviews:
 - **Late Delivery** (highest count)  
 - **Rude Customer Support**  
@@ -54,18 +60,24 @@ Most frequent pain points from negative reviews:
 ---
 
 ### 3. Word Cloud
+![Word Cloud](images/wordcloud.png)
+
 - Negative reviews prominently mention: *order, refund, delivery, app, driver, time, customer support*.  
 - Highlights core frustrations with delays, wrong orders, and refund problems.
 
 ---
 
 ### 4. Sentiment Trend Over Time
+![Sentiment Trend](images/sentiment_trend.png)
+
 - Weekly trend shows spikes in **negative sentiment** during certain periods — possibly due to service outages or policy changes.  
 - **Positive sentiment** remains consistent, indicating overall satisfaction despite recurring complaints.  
 
 ---
 
 ## Tech Stack
+![Python](images/python_logo.png) ![Streamlit](images/streamlit_logo.png) ![Plotly](images/plotly_logo.png) ![NLTK](images/nltk_logo.png)
+
 - **Python**: Data collection, cleaning, and analysis  
 - **Streamlit**: Interactive dashboard  
 - **Plotly & Matplotlib**: Visualizations  
