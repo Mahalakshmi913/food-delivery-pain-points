@@ -76,8 +76,6 @@ Most frequent pain points from negative reviews:
 ---
 
 ## Tech Stack
-![Python](images/python_logo.png) ![Streamlit](images/streamlit_logo.png) ![Plotly](images/plotly_logo.png) ![NLTK](images/nltk_logo.png)
-
 - **Python**: Data collection, cleaning, and analysis  
 - **Streamlit**: Interactive dashboard  
 - **Plotly & Matplotlib**: Visualizations  
